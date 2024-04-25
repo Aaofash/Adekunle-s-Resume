@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dylan Kawalec - Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+   body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #161b22;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #58a6ff;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #58a6ff;
+  display: flex;
+  align-items: center;
+}
+
+h2 i {
+  margin-right: 0.5rem;
+  color: #79c0ff;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #79c0ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #a5d6ff;
+  text-decoration: underline;
+}
+
+ul {
+  margin-bottom: 1.5rem;
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header p {
+  font-size: 1.25rem;
+  color: #8b949e;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.skills-column {
+  flex: 1;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.skill-name {
+  width: 120px;
+  font-weight: 500;
+}
+
+.skill-bar {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #30363d;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.skill-level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #58a6ff;
+  border-radius: 5px;
+  transition: width 1s ease;
+  width: 0;
+}
+
+.skill-years {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  font-size: 12px;
+  color: #c9d1d9;
+}
+
+
+
+.education-item {
+  margin-bottom: 1rem;
+}
+
+.education-item p {
+  margin-bottom: 0.25rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #8b949e;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Adekunle Fasakin</h1>
+      <p>Full Stack Engineer</p>
+      <div>
+        <a href="mailto:dylankawalec@gmail.com">dylankawalec@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/dylankawalec/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/DylanCkawalec" target="_blank">GitHub</a>
+      </div>
+    </header>
+    <section>
+      <h2>&#x1F464; Professional Summary</h2>
+      <p>
+        Results-oriented Full Stack Developer with 4 years of experience designing, developing and deploying high-performance web applications. Strong track record of delivering innovative solutions that improve user experience and drive business growth
+      </p>
+    </section>
+
+    <section>
+      <h2>&#x2699; Technical Skills</h2>
+      <div class="skills-container">
+        <div class="skills-column">
+          <div class="skill-item">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar" data-experience="4">
+              <div class="skill-level"></div>
+              <div class="skill-years">4 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">TypeScript</div>
+            <div class="skill-bar" data-experience="4">
+              <div class="skill-level"></div>
+              <div class="skill-years">4 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">React</div>
+            <div class="skill-bar" data-experience="4">
+              <div class="skill-level"></div>
+              <div class="skill-years">4 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Python</div>
+            <div class="skill-bar" data-experience="4">
+              <div class="skill-level"></div>
+              <div class="skill-years">4 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Rust</div>
+            <div class="skill-bar" data-experience="4">
+              <div class="skill-level"></div>
+              <div class="skill-years">4 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">HTML/CSS</div>
+            <div class="skill-bar" data-experience="4">
+              <div class="skill-level"></div>
+              <div class="skill-years">4 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Vue.Js</div>
+            <div class="skill-bar" data-experience="4">
+              <div class="skill-level"></div>
+              <div class="skill-years">4 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Golang</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Node.Js</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Version Control Git</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">MySQL</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">MongoDB</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Linux</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">AWS</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Material UI</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Agile SCRUM</div>
+            <div class="skill-bar" data-experience="3">
+              <div class="skill-level"></div>
+              <div class="skill-years">3 years</div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-column">
+          <ul class="skills-list">
+            <li>Web: JavaScript, TypeScript, Rust, Python, Golang, HTML, React, Vue.Js, Node.Js, TailwindCSS</li>
+            <li>Databases: MongoDB, MySQL, Linux, AWS</li>
+            <li>DevRel: Networking</li>
+            <li>Tools: SCRUM Agile, Git, GitHub, AI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>&#x1F4BB; Notable Projects</h2>
+      <div class="experience-item">
+        <h3><a href="https://app.sendcash.africa/">Sendcash</a></h3>
+        <p>
+            Sendcash is a fast and affordable way to transfer money to Nigeria from anywhere in the world.
+        </p>
+      </div>
+    
+
+      <div class="experience-item">
+        <h3><a href="https://vaids.gov.ng/">VAIDS PORTAL</a></h3>
+        <p>
+            In partnership with BlueStacks, we developed an online portal for the Nigerian government to handle voluntary tax declarations.
+        </p>
+      </div>
+
+      <div class="experience-item">
+        <h3><a href="https://cars.kfash.xyz/">Carhub</a></h3>
+        <p>
+            CarHub is a streamlined platform for finding, booking, and renting cars, offering a quick and 
+            effortless car rental experience. Built with Next.js, it boasts a smooth and dynamic user 
+            interface, ensuring a seamless browsing and booking process. Leveraging Next.js's capabilities, CarHub
+             delivers a fast, interactive, and SEO-friendly website, enhancing the user experience. Whether for business or leisure, 
+            CarHub simplifies car rentals, making it a go-to destination for anyone looking for a hassle-free rental experience
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3><a href="https://github.com/Homeworks-DeFi">Homeworks</a></h3>
+        <p>
+            Home Works is an 'everybody wins' system offering attractive investments to investors who provide capital for our
+             loan programs. In return they take part in investments with high ROI potential.
+             We generate revenue through NFT sales, metaverse businesses, loan servicing, and more on the Polygon network
+        </p>
+      </div>
+     
+    </section>
+
+    <section>
+      <h2>&#x1F4BC; Professional Experience</h2>
+      <div class="experience-item">
+        <h3>Senior Frontend Engineer, Invo Technologies </h3>
+        <p>Jun 2023 — Dec 2023</p>
+        <ul>
+          <li>Constructed robust analytics pages on the dashboard, enabling users to 
+            effectively interact, sign up, and log in. Delivered real-time insights on 
+            revenue generation, player behavior, and spending patterns for strategic 
+            decision-making in game monetization.</li>
+          <li>Collaborated with the blockchain team to integrate front-end features with 
+            backend blockchain technology. Utilized Rust and Polkadot.js for seamless 
+            blockchain interactions within the platform.</li>
+          <li>Spearheaded the design and implementation of the Developer Dashboard 
+            using React, Redux, D3.js, and TypeScript. Ensured an intuitive and responsive 
+            user interface that enhanced user engagement and experience.</li>
+          <li>Leveraged Jira for effcient project management and Adobe XD for designing 
+            compelling user interfaces and experiences.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Full Stack Engineer, Pepperlabs</h3>
+        <p>Jan 2023 — Present</p>
+        <ul>
+          <li>Collaborate with cross-functional teams to develop and enhance web 
+            applications using JavaScript, HTML, CSS, and React, resulting in successful project deliveries.</li>
+          <li>Implement responsive and user-friendly UI components, ensuring optimal 
+            user experience across multiple devices and browsers, resulting in 45% 
+            increase in user engagement.</li>
+          <li>Conduct thorough testing and debugging to identify and resolve issues, 
+            resulting in 60% improvement in application stability and performance.</li>
+            <li>Employ Git for version control, actively participate in Agile development 
+                processes, and contribute to the code reviews and pull requests, ensuring a 
+                high-quality codebase.
+            </li>
+            <li>
+                Assist in the deployment of applications to production environments, utilizing 
+                Docker containers for streamlined deployment processes, resulting in the 
+                reduction in deployment time and increased effciency
+            </li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Full Stack Engineer, Silicon Bear </h3>
+        <p>Oct 2021 — Jan 2023</p>
+        <ul>
+          <li>Design, develop, and maintain robust and scalable web applications using 
+            JavaScript, TypeScript, React, HTML, and CSS, ensuring a high-quality user 
+            experience.</li>
+          <li>Utilize Node.js and Golang to develop effcient and secure RESTful APIs, 
+            facilitating seamless integration of frontend components with backend 
+            services.</li>
+          <li>Optimize application performance by implementing effcient algorithms, 
+            caching strategies, and database query optimization techniques, resulting in 
+            a 45% improvement in page load times.</li>
+            <li>Implement secure user access and authentication systems using Firebase, 
+                enhancing application security and safeguarding user privacy.</li>
+            <li>Collaborate with designers and stakeholders to translate wireframes and 
+                design mockups into functional web interfaces, delivering projects on time 
+                with an increase in customer satisfaction.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Frontend Engineer, Shoppyverse</h3>
+        <p>Oct 2020 — Mar 2022</p>
+        <ul>
+          <li>Collaborate with cross-functional teams, including blockchain engineers and 
+            designers, to understand project requirements and translate them into 
+            scalable and effcient frontend solutions.</li>
+          <li>Implement blockchain integrations and functionalities into frontend 
+            applications, ensuring seamless interaction with smart contracts, blockchain 
+            networks, and decentralized protocols.</li>
+          <li>Collaborate with UX/UI designers to create visually appealing and intuitive 
+            user interfaces, ensuring a seamless and engaging user experience in the 
+            blockchain applications.</li>
+            <li>Ensure the security and integrity of frontend applications by implementing 
+                appropriate security measures, such as encryption, authentication, and access 
+                control, to protect user data and interactions within the blockchain ecosystem.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>&#x1F393; Education</h2>
+      <div class="education-item">
+        <p>Bachelor of Science in Engineering, Computer Engineering</p>
+        <p>Federal University of Technology Akure</p>
+      </div>
+    </section>
+
+
+    <footer>
+      <p>References available upon request</p>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const skillBars = document.querySelectorAll(".skill-bar");
+      const maxYears = 5; // Set the maximum years of experience
+  
+      skillBars.forEach((skillBar) => {
+        const experience = skillBar.getAttribute("data-experience");
+        const skillLevel = skillBar.querySelector(".skill-level");
+        const barWidth = (experience / maxYears) * 100;
+  console.log(`Experience: ${experience}, Bar Width: ${barWidth}%`);
+  skillLevel.style.width = `${barWidth}%`;
+      });
+    });
+  </script>
+
+</body>
+</html>
